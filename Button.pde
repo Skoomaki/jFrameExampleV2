@@ -53,9 +53,9 @@ class Button implements ButtonInterface {
   // check if mouse is in button and to equal 
   void mousePressedInButton() {
     if (mouseX >= position.getX() && mouseX <= position.getX()+position.getWidth() && mouseY >= position.getY() && mouseY <= position.getX()+position.getHeight() && mousePressed==true) {
-      position.getRectangleColor()=(200);
+      position.getRectangleColor()=200;
     } else {
-      buttonColor=(255);
+      position.getRectangleColor()=255;
     }
   }
 
